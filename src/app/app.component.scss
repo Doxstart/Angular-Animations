@@ -32,3 +32,20 @@
   animation-duration: 1s;
   animation-fill-mode: forwards;
 }
+
+.header{
+  display: flex;
+  padding: 0px 20px;
+  background-color: crimson;
+  color: white;
+  align-items: center;
+}
+
+.spacer{
+  flex-grow: 1;
+}
+
+.sidenav{
+  position: absolute;
+  right: 0;
+}

@@ -6,12 +6,17 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { OpenCloseComponent } from './components/open-close/open-close.component';
 import { SimoAnimationsComponent } from './simo-animations/simo-animations.component';
+import { SidenavComponent } from './sidenav/sidenav.component';
+import { FatButDirective } from './directives/fatbutton/fat-but.directive';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     OpenCloseComponent,
-    SimoAnimationsComponent
+    SimoAnimationsComponent,
+    SidenavComponent,
+    FatButDirective
   ],
   imports: [
     BrowserModule,
